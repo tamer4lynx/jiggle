@@ -1,4 +1,5 @@
 import Foundation
+import Lynx
 import UIKit
 import CoreHaptics
 import AudioToolbox

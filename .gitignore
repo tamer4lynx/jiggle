@@ -45,4 +45,5 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 .externalNativeBuild
 
 # temporarily ignore these files
-/base
+/basebuild
+android/build

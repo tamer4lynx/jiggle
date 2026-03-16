@@ -1,0 +1,13 @@
+{
+  "platforms": {
+    "android": {
+      "packageName": "com.nanofuxion.vibration",
+      "moduleClassName": "com.nanofuxion.vibration.JiggleModule",
+      "sourceDir": "android"
+    },
+    "ios": {
+      "podspecPath": "ios/jiggle",
+      "moduleClassName": "JiggleModule"
+    }
+  }
+}
