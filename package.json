@@ -1,9 +1,9 @@
 {
-  "name": "jiggle",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
+  "name": "@tamer4lynx/jiggle",
   "version": "0.0.1",
+  "type": "module",
+  "main": "index.js",
+  "publishConfig": { "access": "public", "tag": "prerelease" },
   "license": "MIT",
   "description": "This package provides a small native module that exposes device vibration/haptic functionality to the LynxJS runtime. The implementation includes both Android and iOS code.",
   "devDependencies": {
@@ -16,5 +16,6 @@
     "typescript": "^5"
   },
   "author": "Nanofuxion <ramnadroj@gmail.com> (https://github.com/nanofuxion)",
-  "dependencies": {}
+  "dependencies": {},
+  "files": ["android/src", "android/build.gradle.kts", "ios", "lynx.ext.json", "index.js"]
 }

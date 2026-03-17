@@ -5,7 +5,7 @@ Vibration/haptic native module for Lynx. Exposes `vibrate(durationMs)` to the Ly
 ## Installation
 
 ```bash
-npm install jiggle
+npm install @tamer4lynx/jiggle
 ```
 
 Add to your app's dependencies and run `t4l link`.
